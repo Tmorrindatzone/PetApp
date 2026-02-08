@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPaws爱宠 - 宠物记录与陪伴</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #fff8e7 0%, #fff5dc 30%, #fff 100%);
+            color: #2c2c2c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container { max-width: 480px; width: 100%; text-align: center; }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 24px;
+            background: #FFD93D;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 0 #2c2c2c;
+            border: 3px solid #2c2c2c;
+        }
+        .logo svg { width: 60%; height: 60%; }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+        .features {
+            text-align: left;
+            background: rgba(255,255,255,0.8);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 40px;
+            border: 2px solid #2c2c2c;
+            box-shadow: 3px 3px 0 #2c2c2c;
+        }
+        .features h2 {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .features ul {
+            list-style: none;
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+        .features li::before { content: "🐾 "; }
+        .links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .links a {
+            color: #007AFF;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 25 C30 25 25 45 25 55 Q25 70 35 75 Q40 80 50 82 Q60 80 65 75 Q75 70 75 55 Q75 45 70 25 Z" fill="#2c2c2c"/>
+                <ellipse cx="40" cy="50" rx="6" ry="8" fill="#fff"/>
+                <ellipse cx="60" cy="50" rx="6" ry="8" fill="#fff"/>
+                <ellipse cx="40" cy="50" rx="2" ry="3" fill="#2c2c2c"/>
+                <ellipse cx="60" cy="50" rx="2" ry="3" fill="#2c2c2c"/>
+                <path d="M45 62 Q50 68 55 62" stroke="#2c2c2c" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <circle cx="30" cy="35" r="4" fill="#2c2c2c"/>
+                <circle cx="70" cy="35" r="4" fill="#2c2c2c"/>
+            </svg>
+        </div>
+        <h1>iPaws爱宠</h1>
+        <p class="tagline">宠物记录与陪伴，主子开口说话～</p>
+
+        <div class="features">
+            <h2>铲屎官必备</h2>
+            <ul>
+                <li>宠物专属对话框，本汪/本喵主动跟你唠</li>
+                <li>11 种记录：喂食、遛弯、疫苗、驱虫…</li>
+                <li>遛狗轨迹地图，附近医院游乐园</li>
+                <li>智能提醒、打卡成就、今日运势</li>
+                <li>数据全在本地，隐私安全</li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <a href="support.html">支持与反馈</a>
+            <a href="privacy-policy.html">隐私条款</a>
+        </div>
+    </div>
+</body>
+</html>
